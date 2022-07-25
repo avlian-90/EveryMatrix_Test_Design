@@ -1,0 +1,24 @@
+@import '../../../Variables/Variables.scss';
+
+.title {
+    flex: 33.3%;
+    padding: 20px;
+    border-bottom: 2px solid $borderColor;
+    border-left: 1px solid $borderColor;
+    display: flex;
+    span {
+        color: gray;
+        text-align: center;
+        font-weight: bold;
+    }
+    .flex-15 {
+        flex: 15%;
+    }
+    .flex-20 {
+        flex: 20%;
+    }
+    .flex-25 {
+        flex: 25%;
+    }
+
+}

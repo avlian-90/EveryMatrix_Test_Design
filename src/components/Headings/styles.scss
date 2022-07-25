@@ -1,0 +1,13 @@
+@import '../../Variables/Variables.scss';
+
+.headings {
+    display: flex;
+}
+.heading {
+    flex: 33.3%;
+    background-color: $grayColor;
+    padding: 20px 0 10px 30px;
+    color: $whiteColor;
+    font-size: 25px;
+    border-left: 1px solid gray;
+}

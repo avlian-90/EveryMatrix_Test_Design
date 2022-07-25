@@ -1,0 +1,54 @@
+@import '../../Variables/Variables.scss';
+
+.header {
+    display: flex;
+    .white-space {
+        flex: 20%;
+    }
+    .bar {
+        display: flex;
+        flex: 40%;
+        img {
+            width: 20px;
+            align-items: center;
+        }
+    }
+    .flag {
+        display: flex;
+        flex: 10%;
+        align-items: center;
+        justify-content: center;
+        border-left:  1px solid $borderColor;
+        border-right: 1px solid $borderColor;
+        span {
+            color: gray;
+            font-weight: bold;;
+        }
+        img {
+            width: 20px;
+            margin-right: 10px;
+        }
+    }
+    .login {
+        display: flex;
+        flex: 30%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 30px;
+        .user {
+            width: 10%;
+            border-radius: 50%;
+        } 
+        span {
+            color: gray;
+        }
+        p {
+            margin: 0;
+            color: #adaaaa;
+        }
+        .caret {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

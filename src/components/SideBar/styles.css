@@ -1,1 +1,33 @@
-/*# sourceMappingURL=styles.css.map */
+.sidebar {
+  flex: 5%;
+  background-color: #262424;
+}
+.sidebar svg {
+  width: 70%;
+}
+.sidebar .head-icon {
+  background-color: #595757;
+  padding: 5% 0;
+  border: 10px solid #bf0608;
+  border-bottom: 5px solid #bf0608;
+  position: relative;
+}
+.sidebar .head-icon .first-icon {
+  font-size: 300%;
+  color: #e3e3e3;
+  font-weight: 1000;
+  font-style: italic;
+  text-align: center;
+}
+.sidebar .head-icon .yellow-circle {
+  width: 7px;
+  height: 7px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  right: 35%;
+}
+.sidebar .remain {
+  background-color: #262424;
+}/*# sourceMappingURL=styles.css.map */

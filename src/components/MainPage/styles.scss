@@ -1,0 +1,13 @@
+@import '../../Variables/Variables.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+}
+
+.main-page {
+    display: flex;
+    padding: 30px;
+}

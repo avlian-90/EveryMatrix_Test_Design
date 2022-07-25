@@ -1,0 +1,47 @@
+@import '../../Variables/Variables.scss';
+
+.dashboard-container {
+    display: flex;
+    .dashboard {
+        flex: 80%;
+        display: flex;
+        align-items: center;
+        background-color: #e1e3e6;
+        padding: 15px 0;
+        border-top: 2px solid $borderColor;
+        border-bottom: 2px solid $borderColor;
+        span {
+            color: gray;
+            font-weight: bold;
+        }
+        .chevron {
+            background-color: black;
+            width: 20px;
+            padding: 10px 0;
+            border-top-right-radius: 25%;
+            border-bottom-right-radius: 25%;
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            svg {
+                width: 10px;
+            }
+        }
+    }
+    .addToFav {
+        flex: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #c5c7c9;
+        padding: 0 20px;
+        span {
+            color: gray;
+            font-weight: bold;
+        }
+        svg {
+            width: 30px;
+            margin-right: 20px;
+        }
+    }
+}

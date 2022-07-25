@@ -1,0 +1,30 @@
+@import '../../../Variables/Variables.scss';
+
+.info-row {
+    display: flex;
+    color: grey;
+    padding: 20px;
+    border-left: 1px solid $borderColor;
+    border-bottom: 1px solid #d4d4d4;
+    .first {
+        flex: 15%;
+        text-align: center;
+    }
+    .second {
+        flex: 25%;
+        text-align: center;
+    }
+    .third {
+        flex: 20%;
+        text-align: center;
+    }
+    .forth{
+        flex: 25%;
+        text-align: center;
+    }
+    div {
+        flex: 15%;
+        display: flex;
+        justify-content: center;
+    }
+}

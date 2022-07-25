@@ -1,0 +1,45 @@
+.dashboard-container {
+  display: flex;
+}
+.dashboard-container .dashboard {
+  flex: 80%;
+  display: flex;
+  align-items: center;
+  background-color: #e1e3e6;
+  padding: 15px 0;
+  border-top: 2px solid #c5c7c9;
+  border-bottom: 2px solid #c5c7c9;
+}
+.dashboard-container .dashboard span {
+  color: gray;
+  font-weight: bold;
+}
+.dashboard-container .dashboard .chevron {
+  background-color: black;
+  width: 20px;
+  padding: 10px 0;
+  border-top-right-radius: 25%;
+  border-bottom-right-radius: 25%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.dashboard-container .dashboard .chevron svg {
+  width: 10px;
+}
+.dashboard-container .addToFav {
+  flex: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c5c7c9;
+  padding: 0 20px;
+}
+.dashboard-container .addToFav span {
+  color: gray;
+  font-weight: bold;
+}
+.dashboard-container .addToFav svg {
+  width: 30px;
+  margin-right: 20px;
+}/*# sourceMappingURL=styles.css.map */

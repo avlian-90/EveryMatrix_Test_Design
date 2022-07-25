@@ -1,0 +1,39 @@
+@import '../../../Variables/Variables.scss';
+
+.no-dollar {
+    .amount {
+        svg {
+            display: none;
+        }
+    }
+}
+.total-amount {
+    flex: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    border-left: 1px solid $borderColor;
+    svg {
+        width: 25px;
+    }
+    .amount {
+        display: flex;
+        align-items: center;
+        span {
+            font-size: 50px;
+        }
+    }
+    .sphere {
+        display: flex;
+        align-items: center;
+        span {
+            color: gray;
+            font-weight: bold;
+        }
+        svg {
+            margin-right: 10px;
+        }
+    }
+}

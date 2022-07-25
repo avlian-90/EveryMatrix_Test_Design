@@ -1,0 +1,10 @@
+@import '../../../Variables/Variables.scss';
+
+.down-icon-container {
+    padding: 25% 30%;
+    background-color: $blackColor;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

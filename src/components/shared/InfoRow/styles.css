@@ -1,0 +1,28 @@
+.info-row {
+  display: flex;
+  color: grey;
+  padding: 20px;
+  border-left: 1px solid #c5c7c9;
+  border-bottom: 1px solid #d4d4d4;
+}
+.info-row .first {
+  flex: 15%;
+  text-align: center;
+}
+.info-row .second {
+  flex: 25%;
+  text-align: center;
+}
+.info-row .third {
+  flex: 20%;
+  text-align: center;
+}
+.info-row .forth {
+  flex: 25%;
+  text-align: center;
+}
+.info-row div {
+  flex: 15%;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */

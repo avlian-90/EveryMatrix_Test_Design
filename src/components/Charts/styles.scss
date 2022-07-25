@@ -1,0 +1,79 @@
+@import '../../Variables/Variables.scss';
+
+.charts {
+    display: flex;
+    .line-chart {
+        flex: 45%;
+        background-color: #363434;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        .wrapper {
+            width: 100%;
+        }
+        .media {
+            display: flex;
+            color: #C7C7C7;
+            justify-content: space-between;
+            div {
+                display: flex;
+                align-items: center;
+                span {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .map-chart {
+        background-color: #363434;
+        flex: 40%;
+        .geographic-data {
+            display: flex;
+            color: #C7C7C7;
+            justify-content: space-between;
+            padding: 20px 30px;
+            h2 {
+                margin: 0;
+            }
+            div {
+                display: flex;
+                align-items: center;
+                span {
+                    margin-right: 10px;
+                }
+            }
+        }
+        .map {
+            display: flex;
+            padding: 0 30px;
+            .squares {
+                margin-top: 30px;
+                div {
+                    width: 20px;
+                    height: 20px;
+                    background-color:#C7C7C7;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .sign-up {
+            display: flex;
+            justify-content: end;
+            color: #C7C7C7;
+            padding: 15px 30px;
+            border-top: 1px solid $blackColor;
+            span {
+                margin-right: 10px;
+            }
+        }
+        .countries {
+            color: #C7C7C7;
+            .country {
+                display: flex;
+                justify-content: space-between;
+                border-top: 1px solid $blackColor;
+                padding: 0 30px;
+            }
+        }
+    }
+}

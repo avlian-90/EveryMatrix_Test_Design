@@ -1,0 +1,51 @@
+.doughnut-chart {
+  flex: 25%;
+  background-color: #262424;
+  padding: 30px;
+  position: relative;
+}
+.doughnut-chart .relative {
+  position: absolute;
+  top: 33%;
+  left: 44%;
+  color: #C7C7C7;
+  font-size: 50px;
+  font-weight: bold;
+}
+.doughnut-chart .statistics {
+  display: flex;
+  justify-content: space-between;
+  color: #C7C7C7;
+}
+.doughnut-chart .statistics .left .ctr {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.doughnut-chart .statistics .left .yellow, .doughnut-chart .statistics .left .darkBlue, .doughnut-chart .statistics .left .lightBlue {
+  display: flex;
+  align-items: center;
+}
+.doughnut-chart .statistics .left .yellow p, .doughnut-chart .statistics .left .darkBlue p, .doughnut-chart .statistics .left .lightBlue p {
+  margin: 8px 0;
+}
+.doughnut-chart .statistics .left .yellow div {
+  width: 10px;
+  height: 10px;
+  border: 3px solid #FBCF71;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.doughnut-chart .statistics .left .darkBlue div {
+  width: 10px;
+  height: 10px;
+  border: 3px solid #1F7BB6;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.doughnut-chart .statistics .left .lightBlue div {
+  width: 10px;
+  height: 10px;
+  border: 3px solid #01AAAA;
+  border-radius: 50%;
+  margin-right: 15px;
+}/*# sourceMappingURL=styles.css.map */

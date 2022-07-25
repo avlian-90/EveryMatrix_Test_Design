@@ -6,6 +6,8 @@ import {
   Geography
 } from "react-simple-maps";
 
+import {ReactComponent as ChevronDown} from '../../images/chevronDown.svg';
+
 function MapChart() {
   return (
     <>
@@ -23,7 +25,7 @@ function MapChart() {
                       outline: "none"
                     },
                     hover: {
-                      fill: "#F53",
+                      fill: "#FBCF71",
                       outline: "none"
                     },
                     pressed: {

@@ -1,0 +1,40 @@
+@import '../../Variables/Variables.scss';
+
+
+.sidebar {
+    flex: 5%;   
+    background-color: $blackColor;
+    svg {
+        width: 70%;
+    }
+    .head-icon {
+        background-color: $grayColor;
+        padding: 5% 0;
+        border: 10px solid #bf0608;
+        border-bottom: 5px solid #bf0608;
+        position: relative;
+
+        .first-icon {
+            font-size: 300%;
+            color: #e3e3e3;
+            font-weight: 1000;
+            font-style: italic;
+            text-align: center;
+        }
+        .yellow-circle {
+            width: 7px;
+            height: 7px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+            top: 20%;
+            right: 35%;
+        }
+    }
+    .remain {
+        background-color: $blackColor;
+    }
+}
+
+
+

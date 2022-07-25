@@ -1,14 +1,8 @@
-// import DoughnutChart from './components/DoughnutChart';
-// import LineChart from './components/LineChart';
-// import MapChart from './components/MapChart';
+import MainPage from "./components/MainPage";
 
 function App() {
   return (
-    <div>
-      {/* <LineChart />
-      <DoughnutChart /> */}
-      {/* <MapChart /> */}
-    </div>
+    <MainPage />
   );
 }
 

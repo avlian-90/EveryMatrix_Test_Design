@@ -1,0 +1,34 @@
+.no-dollar .amount svg {
+  display: none;
+}
+
+.total-amount {
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  border-left: 1px solid #c5c7c9;
+}
+.total-amount svg {
+  width: 25px;
+}
+.total-amount .amount {
+  display: flex;
+  align-items: center;
+}
+.total-amount .amount span {
+  font-size: 50px;
+}
+.total-amount .sphere {
+  display: flex;
+  align-items: center;
+}
+.total-amount .sphere span {
+  color: gray;
+  font-weight: bold;
+}
+.total-amount .sphere svg {
+  margin-right: 10px;
+}/*# sourceMappingURL=styles.css.map */

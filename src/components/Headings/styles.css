@@ -1,0 +1,12 @@
+.headings {
+  display: flex;
+}
+
+.heading {
+  flex: 33.3%;
+  background-color: #595757;
+  padding: 20px 0 10px 30px;
+  color: #cccaca;
+  font-size: 25px;
+  border-left: 1px solid gray;
+}/*# sourceMappingURL=styles.css.map */

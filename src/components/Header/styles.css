@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+}
+.header .white-space {
+  flex: 20%;
+}
+.header .bar {
+  display: flex;
+  flex: 40%;
+}
+.header .bar img {
+  width: 20px;
+  align-items: center;
+}
+.header .flag {
+  display: flex;
+  flex: 10%;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid #c5c7c9;
+  border-right: 1px solid #c5c7c9;
+}
+.header .flag span {
+  color: gray;
+  font-weight: bold;
+}
+.header .flag img {
+  width: 20px;
+  margin-right: 10px;
+}
+.header .login {
+  display: flex;
+  flex: 30%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.header .login .user {
+  width: 10%;
+  border-radius: 50%;
+}
+.header .login span {
+  color: gray;
+}
+.header .login p {
+  margin: 0;
+  color: #adaaaa;
+}
+.header .login .caret {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=styles.css.map */

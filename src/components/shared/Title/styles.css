@@ -1,0 +1,21 @@
+.title {
+  flex: 33.3%;
+  padding: 20px;
+  border-bottom: 2px solid #c5c7c9;
+  border-left: 1px solid #c5c7c9;
+  display: flex;
+}
+.title span {
+  color: gray;
+  text-align: center;
+  font-weight: bold;
+}
+.title .flex-15 {
+  flex: 15%;
+}
+.title .flex-20 {
+  flex: 20%;
+}
+.title .flex-25 {
+  flex: 25%;
+}/*# sourceMappingURL=styles.css.map */

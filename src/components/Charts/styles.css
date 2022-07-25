@@ -1,0 +1,77 @@
+.charts {
+  display: flex;
+}
+.charts .line-chart {
+  flex: 45%;
+  background-color: #363434;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+.charts .line-chart .wrapper {
+  width: 100%;
+}
+.charts .line-chart .media {
+  display: flex;
+  color: #C7C7C7;
+  justify-content: space-between;
+}
+.charts .line-chart .media div {
+  display: flex;
+  align-items: center;
+}
+.charts .line-chart .media div span {
+  margin-right: 10px;
+}
+.charts .map-chart {
+  background-color: #363434;
+  flex: 40%;
+}
+.charts .map-chart .geographic-data {
+  display: flex;
+  color: #C7C7C7;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.charts .map-chart .geographic-data h2 {
+  margin: 0;
+}
+.charts .map-chart .geographic-data div {
+  display: flex;
+  align-items: center;
+}
+.charts .map-chart .geographic-data div span {
+  margin-right: 10px;
+}
+.charts .map-chart .map {
+  display: flex;
+  padding: 0 30px;
+}
+.charts .map-chart .map .squares {
+  margin-top: 30px;
+}
+.charts .map-chart .map .squares div {
+  width: 20px;
+  height: 20px;
+  background-color: #C7C7C7;
+  margin-bottom: 10px;
+}
+.charts .map-chart .sign-up {
+  display: flex;
+  justify-content: end;
+  color: #C7C7C7;
+  padding: 15px 30px;
+  border-top: 1px solid #262424;
+}
+.charts .map-chart .sign-up span {
+  margin-right: 10px;
+}
+.charts .map-chart .countries {
+  color: #C7C7C7;
+}
+.charts .map-chart .countries .country {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #262424;
+  padding: 0 30px;
+}/*# sourceMappingURL=styles.css.map */
