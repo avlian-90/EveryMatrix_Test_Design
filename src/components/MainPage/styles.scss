@@ -6,8 +6,11 @@ body {
     box-sizing: border-box;
     font-family: $font;
 }
-
+.shadow {
+    height: 20px;
+    background-color: #fafafa;
+}
 .main-page {
     display: flex;
-    padding: 30px;
+    padding: 15px 35px 35px;
 }

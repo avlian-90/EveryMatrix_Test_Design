@@ -4,10 +4,13 @@ import './styles.css';
 
 function MainPage() {
     return (
-        <div className="main-page">
-            <SideBar />
-            <MainSection />
-        </div>
+        <>
+            <div className="shadow"></div>
+            <div className="main-page">
+                <SideBar />
+                <MainSection />
+            </div>
+        </>
     )
 }
 
